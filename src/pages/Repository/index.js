@@ -40,6 +40,7 @@ class Repository extends Component {
 
   render() {
     console.log('heloo');
+    console.log('heloo 2');
     const { repository, issues, loading } = this.state;
 
     if (loading) {
