@@ -39,6 +39,7 @@ class Repository extends Component {
   }
 
   render() {
+    console.log('heloo');
     const { repository, issues, loading } = this.state;
 
     if (loading) {
