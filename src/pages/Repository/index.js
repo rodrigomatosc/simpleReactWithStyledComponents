@@ -22,7 +22,7 @@ class Repository extends Component {
   };
 
   async componentDidMount() {
-    console.log('olas');
+    console.log('olass');
 
     const { match } = this.props;
     const nameOfRepository = decodeURIComponent(match.params.repository);
