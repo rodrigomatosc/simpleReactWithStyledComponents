@@ -22,6 +22,8 @@ class Repository extends Component {
   };
 
   async componentDidMount() {
+    console.log('olas');
+
     const { match } = this.props;
     const nameOfRepository = decodeURIComponent(match.params.repository);
     const [repository, issues] = await Promise.all([
