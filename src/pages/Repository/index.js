@@ -48,7 +48,6 @@ class Repository extends Component {
     }
 
     console.log(issues);
-    console.log(issues);
     return (
       <Container>
         <Owner>
